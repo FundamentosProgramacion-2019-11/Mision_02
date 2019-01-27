@@ -1,0 +1,5 @@
+print("Este programa muestra la cantidad de ingredientes para hacel galletas")
+g=float(input("Cuantas galletas quieres hacer ?"))
+print("Necesitaras ",((1.5*g)/48)," tazas de azucar")
+print("Necesitaras ",((1*g)/48)," tazas de mantequilla")
+print("Necesitaras ",((2.75*g)/48)," tazas de harina")
