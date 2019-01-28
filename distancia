@@ -1,0 +1,12 @@
+#Autor: Katia Hernández Barrera A01375906
+# Descripción: Programa que calcula distancia entre dos coordenadas, dados sus puntos (X1,Y1) (x2,y2)
+
+X1 = int (input ("inserte X1:"))
+X2 = int (input("inserte X2:"))
+Y1 = int (input ("inserte Y1:"))
+Y2 = int (input("Inserte Y2:"))
+
+
+D = ((X2 - X1)**2 + (Y2 - Y1)**2)**0.5
+
+print ("Distancia", D)
