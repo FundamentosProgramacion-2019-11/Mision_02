@@ -1,0 +1,16 @@
+#Autor: Katia Hernández Barrera A01375906
+#Descripción: Programa que calcula catidad necesaria de ingredientes dependiendo de la cantidad de galletas que el usuario quiera hacer.
+
+T = int (input("Cantidad de galletas"))
+
+A = (T*1.5)/48
+
+print ("cantidad de azucar:",A, "tazas")
+
+M = (T*1)/48
+
+print ("cantidad de mantequilla:",M, "tazas")
+
+H = (T*2.75)/48
+
+print ("cantidad de harina:",H, "tazas")
