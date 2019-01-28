@@ -1,0 +1,6 @@
+#Autor: Katia Hernández Barrera
+#Descripción: Programa que convierte grados Farhenheit en Celsius
+
+leer grados Fahrenheit
+calcular c = (F-32) /1.8
+mostrar resultado
