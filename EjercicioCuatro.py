@@ -4,5 +4,5 @@ total=m+h
 ph=(h*100)/total
 pm=(m*100)/total
 print("El total de alumnos inscritos son ",total)
-print("EL porcenaje de hombre es de ",ph,"%")
-print("EL porcenaje de mujeres es de ",pm,"%")
+print("EL porcenaje de hombre es de %.1f"%ph,"%")
+print("EL porcenaje de mujeres es de %.1f"%pm,"%")
