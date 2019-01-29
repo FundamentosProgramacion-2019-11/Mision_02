@@ -1,4 +1,9 @@
-# Autor: tuNombreCompleto, tuMatricula
-# Descripcion: Texto que describe en pocas palabras el problema que estás resolviendo.
+#Autor: Martha Margarita Dorantes Cordero 
+#imprime: costo comidas
 
-# Escribe tu programa después de esta línea.
+
+
+costo = float(input("Costo de su comida: $"))
+print('Propina: $%.2f'%(costo*.13))
+print('IVA: $%.2f'%(costo*.16))
+print('Total a pagar: $%.2f'%(costo+costo*.13+costo*.16))
