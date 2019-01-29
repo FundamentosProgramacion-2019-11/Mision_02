@@ -10,4 +10,4 @@ y2 = int(input("y2: "))
 
 distancia = ((x2-x1)**2+(y2-y1)**2)**0.5
 
-print ("Distancia: " , distancia)
+print ("Distancia: %.3f" % (distancia))
