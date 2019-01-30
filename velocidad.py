@@ -1,4 +1,6 @@
-# Autor: tuNombreCompleto, tuMatricula
-# Descripcion: Texto que describe en pocas palabras el problema que estás resolviendo.
-
-# Escribe tu programa después de esta línea.
+#Rafael Romero Bello A01747730
+#Este programa da la distania recorrida por el camion.
+v=float(input("inserte la velocidad:"))
+t=float(input("inserte el tiempo:"))
+d=v*t
+print("%.1f"%(d),"km")
