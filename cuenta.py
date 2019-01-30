@@ -1,4 +1,13 @@
-# Autor: tuNombreCompleto, tuMatricula
-# Descripcion: Texto que describe en pocas palabras el problema que estás resolviendo.
+#Autor: Sara Delgado G.
+#Descripción: Calcula el costo total de una comida
 
-# Escribe tu programa después de esta línea.
+
+subtotal = int(input("Costo de la comida: "))
+propina = subtotal*0.13
+iva = subtotal*0.16
+total= subtotal + iva + propina
+
+
+print("Propina: %.2f" % propina)
+print ("IVA: %.2f" % iva)
+print("Total: %.2f" % total)
