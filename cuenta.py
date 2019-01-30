@@ -9,8 +9,13 @@
 #Entradas
 totalPrice=float(input("Por favor introduzca el precio por la comida: "))
 
-#
-print("El subtotal es: ", totalPrice)
-print("La propina es: ", totalPrice *.13)
-print("El IVA es: ", totalPrice *.16)
-print("El total a pagar es de: ", totalPrice + (totalPrice *.13) + (totalPrice *.16))
+#Calculos
+prop=(totalPrice*.13)
+iva=(totalPrice*.16)
+full=totalPrice+prop+iva
+
+#Salidas
+print("El subtotal es: %.2f" %totalPrice)
+print("La propina es: %.2f" %prop)
+print("El IVA es: %.2f" %iva)
+print("El total a pagar es de: %.2f" %full)
