@@ -1,4 +1,14 @@
-# Autor: tuNombreCompleto, tuMatricula
-# Descripcion: Texto que describe en pocas palabras el problema que estás resolviendo.
-
-# Escribe tu programa después de esta línea.
+# Autor: Francisco Javier González Molina a01748636
+# Algoritmo que da mis datos
+print ("""
+Nombre: 
+Francisco Javier González Molina
+Matricula:
+A01748636
+Carrera:
+ISC
+Escuela de procedencia:
+CBT Bicentenario
+Descripcion:
+Me gusta nadar, me gusta muchisimo la musica, no hay dia que no me la pase escuchandola. Y mi sueño es aprender a programar como se debe. B)
+""")
