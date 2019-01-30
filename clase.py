@@ -17,3 +17,4 @@ plus=men+women
 print("El total de alumnos en la clase es de: %.1f" %plus)
 print("El porcentaje de hombres en la clase es de: %.1f" %((men*100)/plus), "%")
 print("El porcentaje de mujeres en la clase es de: %.1f" %((women*100)/plus), "%")
+
