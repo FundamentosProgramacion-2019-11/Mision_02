@@ -1,4 +1,12 @@
-# Autor: tuNombreCompleto, tuMatricula
-# Descripcion: Texto que describe en pocas palabras el problema que estás resolviendo.
+# Autor: Sofía Daniela Méndez Sandoval, A01242259
+# Descripcion: Calcula costo total de una comida incluyendo propina e IVA.
 
-# Escribe tu programa después de esta línea.
+subtotal = int(input("Teclea el costo total de tu comida: "))
+propina = subtotal*.13
+IVA = subtotal*.16
+Total = subtotal+propina+IVA
+
+print(("Subtotal: $"), "%.2f" % subtotal)
+print(("Propina: $"), "%.2f" % propina)
+print(("IVA: $"), "%.2f" % IVA)
+print(("Total: $"), Total)
